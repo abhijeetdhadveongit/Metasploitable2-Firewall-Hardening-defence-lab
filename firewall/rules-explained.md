@@ -4,8 +4,11 @@ used in this project.
 ###1. Default Policies
 
 -P INPUT DROP
+
 -P FORWARD DROP
+
 -P OUTPUT ACCEPT
+
 Explanation:
 -All inbound traffic is denied by default (default-deny model)
 -Forwarding is disabled to prevent routing abuse
@@ -16,6 +19,7 @@ Explanation:
 ###2. Loopback Traffic
 
 -A INPUT -i lo -j ACCEPT
+
 Explanation:
 -Allows internal system communication
 -Required for local services and OS stability
@@ -26,6 +30,7 @@ Explanation:
 ###3. Established and Related Connections
 
 -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+
 Explanation:
 -Allows return traffic for connections initiated by the host
 -Prevents breaking legitimate outbound connections
@@ -36,6 +41,7 @@ Explanation:
 ###4. ICMP Traffic
 
 -A INPUT -p icmp -j ACCEPT
+
 Explanation:
 -Allows basic network diagnostics (ping)
 -Confirms host availability
