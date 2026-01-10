@@ -1,21 +1,29 @@
-Threat Model
+## Threat Model
 
-Adversary Capabilities
+
+
+## Adversary Capabilities
 - Network reconnaissance
 - Port scanning
 - Automated exploitation
 - Credential brute forcing
 
-Assets at Risk
+
+
+## Assets at Risk
 - Remote shell access
 - Database services
 - Web services
 - System integrity
 
-Defensive Strategy
+
+
+## Defensive Strategy
 - Eliminate network-level exposure
 - Drop unsolicited traffic silently
 - Reduce recon signal leakage
 
-Outcome
+
+
+## Outcome
 Attack surface reduced before exploitation phase.
