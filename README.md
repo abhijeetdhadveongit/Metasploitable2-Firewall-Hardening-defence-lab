@@ -1,4 +1,4 @@
-Metasploitable2 Firewall Hardening (Blue Team Project)
+Metasploitable2 Firewall Hardening (Learning/Home-lab Blue Team Project)
 
 Overview
 This project demonstrates how a *host-based firewall (iptables)* can be used to
