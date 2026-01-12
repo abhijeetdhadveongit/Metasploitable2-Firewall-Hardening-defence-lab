@@ -22,10 +22,10 @@ Rather than attempting to patch vulnerabilities, the project focuses on
 ## Lab Environment
 Component details 
 
-Attacker - Kali Linux 2025 
-Target - Metasploitable2 (Ubuntu 8.04, Kernel 2.6) 
-Hypervisor - VMware Workstation 
-Network - Host-Only 
+- Attacker - Kali Linux 2025 
+- Target - Metasploitable2 (Ubuntu 8.04, Kernel 2.6) 
+- Hypervisor - VMware Workstation 
+- Network - Host-Only 
 
 ---
 
@@ -41,27 +41,27 @@ This behavior confirms **successful firewall hardening**, not misconfiguration.
 
 ---
 
-### Before vs After
+## Before vs After
 
-##Before - 
+- ## Before  
 
-1.Open ports - 25 +.
+  1.Open ports - 25 +.
 
-2.Port scan visibility - high.
+  2.Port scan visibility - high.
 
-3.Attack surface - Extremely high.
+  3.Attack surface - Extremely high.
 
-4.Recon effectiveness - Full.
+  4.Recon effectiveness - Full.
 
-##After - 
+- ## After  
 
-1.Open ports - 0.
+  1.Open ports - 0.
 
-2.Port scan visibility - None.
+  2.Port scan visibility - None.
 
-3.Attack surface - Minimal.
+  3.Attack surface - Minimal.
 
-4.Recon effectiveness - Ineffective.
+  4.Recon effectiveness - Ineffective.
 ---
 
 ## Project Structure
